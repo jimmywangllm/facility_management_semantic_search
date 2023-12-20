@@ -24,6 +24,10 @@ cd /data/home/jim.wang/fm_semantic_search_3073
 ( python app_path.py >> log.txt <&- &  )
 ```
 
+5. open the following URL
+
+http://37.224.68.132:27373/
+
 # facility_management_semantic_search
 Semantic search API for FM
 
