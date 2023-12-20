@@ -1,3 +1,29 @@
+# to start the service
+
+1. login to the server
+
+```
+ssh root@37.224.68.132 -p 50029
+```
+
+2. enter virtual environment
+
+```
+conda activate qa_from_doc_authority
+```
+
+3. enter the directory
+
+```
+cd /data/home/jim.wang/fm_semantic_search_3073
+```
+
+4. start the flask service
+
+```
+( python app_path.py >> log.txt <&- &  )
+```
+
 # facility_management_semantic_search
 Semantic search API for FM
 
@@ -10,3 +36,5 @@ pip install Werkzeug==2.2.2
 pip install flask-restx==1.0.3
 
 pip install Flask-Session==0.5.0
+
+
