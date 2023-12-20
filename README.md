@@ -18,13 +18,25 @@ conda activate qa_from_doc_authority
 cd /data/home/jim.wang/fm_semantic_search_3073
 ```
 
-4. start the flask service
+4. check the running program at port 3073
+
+```
+lsof -i :3073
+```
+
+if any program running then kill it 
+
+```
+kill -9 <replace by the PID of above screenshot>
+```
+
+5. start the flask service
 
 ```
 ( python app_path.py >> log.txt <&- &  )
 ```
 
-5. open the following URL
+6. open the following URL
 
 http://37.224.68.132:27373/
 
