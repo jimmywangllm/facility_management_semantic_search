@@ -24,6 +24,9 @@ cd /data/home/jim.wang/fm_semantic_search_3073
 lsof -i :3073
 ```
 
+![alt text](running.png)
+
+
 if any program running then kill it 
 
 ```
